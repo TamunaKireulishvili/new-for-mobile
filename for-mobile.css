@@ -1,0 +1,450 @@
+
+.body-div{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: hsl(226, 43%, 10%) ;
+    height: 700px;
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 46%, 20%);
+    color: #fff;
+    height: 440px;
+    width: 240px;
+    margin: 140px 30px 100px 190px;
+    border-radius: 15px;
+    
+}
+.user-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(246, 80%, 60%);
+    width: 240px;
+    height: 290px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.user-image{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    padding: 30px 70px 30px 20px;
+}
+.user-div-text{
+    
+    padding-top: 90px ;
+    padding-left: 30px;
+    opacity: 0.6;
+}
+.user-name{
+  padding-left:30px;
+  letter-spacing: 1px;
+  font-family:'Courier New', Courier, monospace;
+}
+.list-one{
+    padding-top: 300px;
+    padding-left: 20px;
+}
+.list-two{
+    padding-left: 20px;
+}
+.last-three{
+    padding-left: 20px;
+    color:hsl(264, 64%, 52%);
+}
+.div-container-one{
+    display: flex;
+    flex-direction: column;
+    margin-top:140px;
+    width: 650px;
+    height: 250px;
+    
+    
+}
+.first-div{
+    height: 200px;
+    width: 240px;
+    background-color:hsl(15, 100%, 70%);
+    border-radius: 15px;
+
+}
+.background-images{
+    padding-left: 170px;
+    height: 50px;
+    width: 50px;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 240px;
+    background-color: hsl(235, 45%, 61%);
+    border-radius: 15px;
+ }
+.ellipsis{
+    position: absolute;
+    padding: 25px 185px;
+    color:#fff;
+    
+    
+}
+.activities{
+    color: #fff;
+    position: absolute;
+    padding-left: 30px;
+}
+.hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #fff;
+    padding-left: 30px;
+}
+.last-week{
+    position: absolute;
+    display: flex;
+    opacity: 0.6;
+    color: #fff;
+    flex-direction:row;
+    padding: 90px 40px;
+    font-size: 14px;
+    
+}
+.second-div{
+    height: 200px;
+    width: 240px;
+    background-color:hsl(195, 74%, 62%);
+    border-radius: 15px;
+    margin:37px -2px;
+
+}
+.play{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    
+}
+
+
+.div-container-two{
+    display: flex;
+    flex-direction: column;
+    margin-top:140px;
+    height: 250px;
+    width: 240px;
+    margin-left: -410px;
+}
+.third-div{
+    height: 200px;
+    width: 240px;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 15px;
+    margin-left:30px;
+    
+}
+.study{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+}
+.fourth-div{
+    height: 200px;
+    width: 240px;
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 15px;
+    margin:40px 30px ;
+    
+}
+.exercise{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+
+}
+.div-container-three{
+    display: flex;
+    flex-direction: column;
+    margin-top:140px;
+    height: 250px;
+    width: 240px;
+    margin-left: 30px;
+
+}
+.fifth-div{
+    height: 200px;
+    width: 240px;
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 15px;
+    margin-left:30px ;
+
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+
+}
+.sixth-div{
+    height: 200px;
+    width: 240px;
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 15px;
+    margin:40px 30px ;
+
+}
+.self-care{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+}
+@media (max-width: 600px)
+{
+.body-div{
+margin:0;
+padding:0;
+box-sizing: border-box;
+background-color: hsl(226, 43%, 10%) ;
+height:1100px;
+width: 600px;
+display:flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+align-items: center;
+}
+
+
+.left-div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(235, 46%, 20%);
+    color: #fff;
+    height: 155px;
+    width: 240px;
+    margin-left: 80px;
+    border-radius: 15px;
+    margin-top: 40px;
+
+    }
+    .user-div{
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    background-color:hsl(246, 80%, 60%);
+    width: 240px;
+    height: 110px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+
+    }
+    .user-image{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        padding: 30px 70px 30px 20px;
+    }
+    .user-div-text{
+        font-size: 13px;
+        padding-top: 15px ;
+        padding-left:90px;
+        opacity: 0.6;
+        
+    }
+    .user-name{
+      font-size: 15px;
+      padding-top: 40px;
+      padding-left:20px;
+      letter-spacing: 1px;
+      font-family:'Courier New', Courier, monospace;
+   
+}
+.list-one{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.list-two{
+    padding-top: 100px;
+}
+.last-three{
+    padding-top: 100px;
+    color:hsl(264, 64%, 52%);
+
+}
+.div-container-one{
+    display: flex;
+    flex-direction: column;
+    margin-top:-75px;
+    height: 100px;
+    width: 240px;
+    margin-left: 50px;
+}
+.first-div{
+    height: 100px;
+    width: 240px;
+    background-color:hsl(15, 100%, 70%);
+    border-radius: 15px;
+    
+}
+.background-images{
+    padding-left: 170px;
+    height: 40px;
+    width: 40px;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    width: 240px;
+    background-color: hsl(235, 45%, 61%);
+    border-radius: 15px;
+}
+.activities{
+    color: #fff;
+    position: absolute;
+    padding-left: 30px;
+}
+.hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.last-week{
+    position: absolute;
+    display: flex;
+    opacity: 0.6;
+    color: #fff;
+    flex-direction:row;
+    padding: 40px 125px;
+    font-size: 10px;
+}
+.second-div{
+    height: 100px;
+    width: 240px;
+    background-color:hsl(195, 74%, 62%);
+    border-radius: 15px;
+    margin:37px -2px;
+
+}
+.play{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    
+}
+
+.div-container-two{
+    display: flex;
+    flex-direction: column;
+    margin-top:140px;
+    height: 250px;
+    width: 240px;
+    
+
+}
+.div-container-three{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    height: 100px;
+    width: 240px;
+    margin-left: 30px;
+}
+.third-div{
+    height: 100px;
+    width: 240px;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 15px;
+    margin-left:227px;
+    margin-top: 35px;
+    
+}
+.study{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+}
+.fourth-div{
+    height: 100px;
+    width: 240px;
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 15px;
+    margin:35px 227px ;
+    
+}
+.exercise{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    width: 240px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    }
+    .fifth-div{
+        height: 100px;
+        width: 240px;
+        background-color: hsl(264, 64%, 52%);
+        border-radius: 15px;
+        margin-left:10px ;
+        margin-top: 35px;
+    
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: 85px;
+        width: 240px;
+        background-color: hsl(235, 46%, 20%);
+        border-radius: 15px;
+    
+    }
+    .sixth-div{
+        height: 100px;
+        width: 240px;
+        background-color: hsl(43, 84%, 65%);
+        border-radius: 15px;
+        margin:35px 10px ;
+    
+    }
+    .self-care{
+        display: flex;
+        flex-direction: row;
+        height: 85px;
+        width: 240px;
+        background-color: hsl(235, 46%, 20%);
+        border-radius: 15px;
+}
+}
